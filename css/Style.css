@@ -1,0 +1,94 @@
+:root{
+    background-color: #588157;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav .nav-sol #Logo{
+    width: auto;
+    height: 80px;
+    margin: 0;
+    padding: 0;    
+}
+ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav{
+    border-radius: 15px;
+    background: #344e41;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+    text-decoration: none;
+    
+}
+nav .nav-sol{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+ul li a{
+    padding-left: 20px;
+    text-decoration: none;
+    align-items: center;
+    color: #dad7cd;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-sag{
+    margin-right: 30px;
+}
+
+
+
+
+
+#sekil{
+    border-radius: 40px;
+    height: auto;
+    width: 600px;
+    margin-right: 50px;
+    transition: transform 0.3s ease-in-out;
+}   
+
+#sekil:hover{
+
+    transform: scale(1.09);
+    transition: .5s ease-out;
+}
+.button1, .button2{
+    background-color: #283618;
+    color: white;
+    cursor: pointer ;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+    transition: transform 0.3s ease-in-out;
+}
+.button1:hover, .button2:hover{
+    background-color: #344e41;
+    color: white;
+    transform: translateY(-5px);
+    transition: .5s ease-out;
+}
+
+.body-ss{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.body-sol{
+    margin-left: 50px;
+}
+h1, h2{
+
+    margin-right: 150px;
+}
